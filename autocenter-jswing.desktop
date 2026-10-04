@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=AutoCenter J-Swing
+Comment=Plataforma de gestión para tienda de autos (Java Swing)
+# Ajusta esta ruta a donde tengas el proyecto y luego copia el archivo a
+# ~/.local/share/applications/ para que aparezca en wofi/rofi/Hyprland.
+Exec=/home/thomi/Proyecto_J_Swing/run.sh
+Icon=application-x-executable
+Terminal=false
+Categories=Office;Utility;
