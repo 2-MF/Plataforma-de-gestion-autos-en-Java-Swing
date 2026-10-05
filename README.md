@@ -101,10 +101,13 @@ Sentencias usadas (todas con `PreparedStatement`): `CREATE DATABASE`, `CREATE TA
 ## Estructura
 ```
 Proyecto_J_Swing/
-├── src/com/tiendaautos/
-│   ├── Main.java
-│   ├── model/    → Vehiculo, FiltroVehiculo, Inventario, BaseDatos (JDBC)
-│   └── ui/       → FramePrincipal, InternalListado, InternalAgregar, ModeloTablaVehiculos
+├── src/com/tiendaautos/          (un solo paquete, 6 clases)
+│   ├── Main.java                 (arranque)
+│   ├── Vehiculo.java             (el vehículo + respaldo CSV)
+│   ├── BaseDatos.java            (todo el SQL: JDBC, filtros, respaldo, demo)
+│   ├── VentanaPrincipal.java     (menús, escritorio, barra de estado)
+│   ├── VentanaListado.java       (filtros y tabla de resultados)
+│   └── VentanaFormulario.java    (agregar / editar vehículo)
 ├── lib/mariadb-java-client.jar   (driver JDBC; debe quedar junto al .jar)
 ├── db.properties                 (configuración de la conexión)
 ├── sql/tienda_autos.sql          (script de la BD: usuario, base, tabla y datos demo)
