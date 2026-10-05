@@ -42,3 +42,11 @@ Componentes: JLabel, JTextField, JButton, JScrollPane, JMenuBar, JMenu, JDesktop
 | `VentanaFormulario` | Agregar / editar vehículo |
 
 El driver JDBC está en `lib/mariadb-java-client.jar` y debe quedarse junto al `.jar`.
+
+
+*Aviso del desarrollo*
+El durante el desarrollo del proyecto hubo asistencia por IA generativa
+
+*Agente usado para audit & testing*
+
+Cline / GLM 5.3
